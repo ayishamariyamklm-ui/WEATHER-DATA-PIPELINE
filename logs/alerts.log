@@ -1,0 +1,11 @@
+2026-04-07 18:01:11,235 | WARNING | src.database | Alert inserted: High Temperature for Chennai
+2026-04-07 18:01:11,235 | WARNING | src.alerts | ALERT: High Temperature | City: Chennai | Value: 30.56 | Threshold: 30
+2026-04-07 18:01:11,406 | WARNING | src.database | Alert inserted: High Temperature for Bangalore
+2026-04-07 18:01:11,407 | WARNING | src.alerts | ALERT: High Temperature | City: Bangalore | Value: 32.63 | Threshold: 30
+2026-04-07 18:01:29,386 | WARNING | src.database | Alert inserted: High Temperature for Chennai
+2026-04-07 18:01:29,387 | WARNING | src.alerts | ALERT: High Temperature | City: Chennai | Value: 30.56 | Threshold: 30
+2026-04-07 18:01:29,581 | WARNING | src.database | Alert inserted: High Temperature for Bangalore
+2026-04-07 18:01:29,587 | WARNING | src.alerts | ALERT: High Temperature | City: Bangalore | Value: 32.63 | Threshold: 30
+2026-04-07 18:37:27,668 | ERROR | __main__ | Database file not found. Run setup_database first.
+2026-04-07 18:39:35,444 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined
+2026-04-07 18:39:42,024 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined
