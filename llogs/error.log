@@ -1,0 +1,3 @@
+2026-04-07 18:37:27,668 | ERROR | __main__ | Database file not found. Run setup_database first.
+2026-04-07 18:39:35,444 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined
+2026-04-07 18:39:42,024 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined

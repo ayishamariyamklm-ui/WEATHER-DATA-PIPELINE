@@ -1,1 +1,100 @@
-
+2026-04-07 18:00:45,076 | INFO | root | Logging system initialized
+2026-04-07 18:00:45,077 | INFO | __main__ | Starting database setup process
+2026-04-07 18:00:45,077 | INFO | database.init_db | Initializing database...
+2026-04-07 18:00:45,082 | INFO | database.init_db | Connected to database at E:\VS CODE\The Developer's Arena Internship 6 months\Month 3\database\weather_data.db
+2026-04-07 18:00:45,706 | INFO | database.init_db | Database schema applied successfully
+2026-04-07 18:00:45,707 | INFO | database.init_db | Tables created: ['weather_data', 'sqlite_sequence', 'alerts', 'pipeline_runs', 'errors']
+2026-04-07 18:00:45,708 | INFO | database.init_db | Database initialization completed
+2026-04-07 18:00:45,710 | INFO | __main__ | Database setup completed in 0.63 seconds
+2026-04-07 18:01:10,844 | INFO | root | Logging system initialized
+2026-04-07 18:01:10,845 | INFO | __main__ | Pipeline execution started
+2026-04-07 18:01:10,845 | INFO | src.etl_pipeline | Starting ETL pipeline run
+2026-04-07 18:01:10,846 | INFO | src.etl_pipeline | Processing city: Mumbai
+2026-04-07 18:01:10,846 | INFO | src.api_client | Fetching weather data for Mumbai (Attempt 1)
+2026-04-07 18:01:10,980 | INFO | src.validators | Validation successful for Mumbai
+2026-04-07 18:01:10,981 | INFO | src.api_client | Successfully fetched data for Mumbai
+2026-04-07 18:01:11,003 | INFO | src.database | Weather data inserted for Mumbai
+2026-04-07 18:01:11,003 | INFO | src.etl_pipeline | Processing city: Delhi
+2026-04-07 18:01:11,003 | INFO | src.api_client | Fetching weather data for Delhi (Attempt 1)
+2026-04-07 18:01:11,090 | INFO | src.validators | Validation successful for Delhi
+2026-04-07 18:01:11,090 | INFO | src.api_client | Successfully fetched data for Delhi
+2026-04-07 18:01:11,119 | INFO | src.database | Weather data inserted for Delhi
+2026-04-07 18:01:11,119 | INFO | src.etl_pipeline | Processing city: Chennai
+2026-04-07 18:01:11,119 | INFO | src.api_client | Fetching weather data for Chennai (Attempt 1)
+2026-04-07 18:01:11,197 | INFO | src.validators | Validation successful for Chennai
+2026-04-07 18:01:11,198 | INFO | src.api_client | Successfully fetched data for Chennai
+2026-04-07 18:01:11,216 | INFO | src.database | Weather data inserted for Chennai
+2026-04-07 18:01:11,235 | WARNING | src.database | Alert inserted: High Temperature for Chennai
+2026-04-07 18:01:11,235 | WARNING | src.alerts | ALERT: High Temperature | City: Chennai | Value: 30.56 | Threshold: 30
+2026-04-07 18:01:11,235 | INFO | src.etl_pipeline | Processing city: Bangalore
+2026-04-07 18:01:11,236 | INFO | src.api_client | Fetching weather data for Bangalore (Attempt 1)
+2026-04-07 18:01:11,347 | INFO | src.validators | Validation successful for Bangalore
+2026-04-07 18:01:11,359 | INFO | src.api_client | Successfully fetched data for Bangalore
+2026-04-07 18:01:11,378 | INFO | src.database | Weather data inserted for Bangalore
+2026-04-07 18:01:11,406 | WARNING | src.database | Alert inserted: High Temperature for Bangalore
+2026-04-07 18:01:11,407 | WARNING | src.alerts | ALERT: High Temperature | City: Bangalore | Value: 32.63 | Threshold: 30
+2026-04-07 18:01:11,407 | INFO | src.etl_pipeline | Processing city: Kolkata
+2026-04-07 18:01:11,408 | INFO | src.api_client | Fetching weather data for Kolkata (Attempt 1)
+2026-04-07 18:01:11,507 | INFO | src.validators | Validation successful for Kolkata
+2026-04-07 18:01:11,507 | INFO | src.api_client | Successfully fetched data for Kolkata
+2026-04-07 18:01:11,539 | INFO | src.database | Weather data inserted for Kolkata
+2026-04-07 18:01:11,541 | INFO | src.etl_pipeline | Pipeline completed | Success: 5, Failures: 0, Alerts: 2, Duration: 0.69s
+2026-04-07 18:01:11,565 | INFO | src.database | Pipeline run logged successfully
+2026-04-07 18:01:11,565 | INFO | __main__ | Pipeline completed in 0.72 seconds
+2026-04-07 18:01:28,310 | INFO | root | Logging system initialized
+2026-04-07 18:01:28,311 | INFO | __main__ | Pipeline execution started
+2026-04-07 18:01:28,312 | INFO | src.etl_pipeline | Starting ETL pipeline run
+2026-04-07 18:01:28,312 | INFO | src.etl_pipeline | Processing city: Mumbai
+2026-04-07 18:01:28,312 | INFO | src.api_client | Fetching weather data for Mumbai (Attempt 1)
+2026-04-07 18:01:28,431 | INFO | src.validators | Validation successful for Mumbai
+2026-04-07 18:01:28,432 | INFO | src.api_client | Successfully fetched data for Mumbai
+2026-04-07 18:01:28,455 | INFO | src.database | Weather data inserted for Mumbai
+2026-04-07 18:01:28,455 | INFO | src.etl_pipeline | Processing city: Delhi
+2026-04-07 18:01:28,455 | INFO | src.api_client | Fetching weather data for Delhi (Attempt 1)
+2026-04-07 18:01:28,550 | INFO | src.validators | Validation successful for Delhi
+2026-04-07 18:01:28,551 | INFO | src.api_client | Successfully fetched data for Delhi
+2026-04-07 18:01:28,583 | INFO | src.database | Weather data inserted for Delhi
+2026-04-07 18:01:28,583 | INFO | src.etl_pipeline | Processing city: Chennai
+2026-04-07 18:01:28,584 | INFO | src.api_client | Fetching weather data for Chennai (Attempt 1)
+2026-04-07 18:01:29,345 | INFO | src.validators | Validation successful for Chennai
+2026-04-07 18:01:29,346 | INFO | src.api_client | Successfully fetched data for Chennai
+2026-04-07 18:01:29,364 | INFO | src.database | Weather data inserted for Chennai
+2026-04-07 18:01:29,386 | WARNING | src.database | Alert inserted: High Temperature for Chennai
+2026-04-07 18:01:29,387 | WARNING | src.alerts | ALERT: High Temperature | City: Chennai | Value: 30.56 | Threshold: 30
+2026-04-07 18:01:29,388 | INFO | src.etl_pipeline | Processing city: Bangalore
+2026-04-07 18:01:29,388 | INFO | src.api_client | Fetching weather data for Bangalore (Attempt 1)
+2026-04-07 18:01:29,477 | INFO | src.validators | Validation successful for Bangalore
+2026-04-07 18:01:29,519 | INFO | src.api_client | Successfully fetched data for Bangalore
+2026-04-07 18:01:29,557 | INFO | src.database | Weather data inserted for Bangalore
+2026-04-07 18:01:29,581 | WARNING | src.database | Alert inserted: High Temperature for Bangalore
+2026-04-07 18:01:29,587 | WARNING | src.alerts | ALERT: High Temperature | City: Bangalore | Value: 32.63 | Threshold: 30
+2026-04-07 18:01:29,590 | INFO | src.etl_pipeline | Processing city: Kolkata
+2026-04-07 18:01:29,593 | INFO | src.api_client | Fetching weather data for Kolkata (Attempt 1)
+2026-04-07 18:01:29,698 | INFO | src.validators | Validation successful for Kolkata
+2026-04-07 18:01:29,702 | INFO | src.api_client | Successfully fetched data for Kolkata
+2026-04-07 18:01:29,728 | INFO | src.database | Weather data inserted for Kolkata
+2026-04-07 18:01:29,729 | INFO | src.etl_pipeline | Pipeline completed | Success: 5, Failures: 0, Alerts: 2, Duration: 1.42s
+2026-04-07 18:01:29,746 | INFO | src.database | Pipeline run logged successfully
+2026-04-07 18:01:29,749 | INFO | __main__ | Pipeline completed in 1.44 seconds
+2026-04-07 18:37:27,666 | INFO | root | Logging system initialized
+2026-04-07 18:37:27,668 | ERROR | __main__ | Database file not found. Run setup_database first.
+2026-04-07 18:39:35,437 | INFO | root | Logging system initialized
+2026-04-07 18:39:35,438 | INFO | __main__ | Report generation started
+2026-04-07 18:39:35,438 | INFO | src.reporter | Generating weather report
+2026-04-07 18:39:35,444 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined
+2026-04-07 18:39:35,446 | INFO | __main__ | Report generation completed successfully
+2026-04-07 18:39:42,022 | INFO | root | Logging system initialized
+2026-04-07 18:39:42,023 | INFO | __main__ | Report generation started
+2026-04-07 18:39:42,023 | INFO | src.reporter | Generating weather report
+2026-04-07 18:39:42,024 | ERROR | src.reporter | Error saving report: name 'REPORT_FILE_PATH' is not defined
+2026-04-07 18:39:42,025 | INFO | __main__ | Report generation completed successfully
+2026-04-07 18:42:27,392 | INFO | root | Logging system initialized
+2026-04-07 18:42:27,393 | INFO | __main__ | Report generation started
+2026-04-07 18:42:27,393 | INFO | src.reporter | Generating weather report
+2026-04-07 18:42:27,395 | INFO | src.reporter | Report generated and saved to E:\VS CODE\The Developer's Arena Internship 6 months\Month 3\reports\weather_report.txt
+2026-04-07 18:42:27,396 | INFO | __main__ | Report generation completed successfully
+2026-04-07 18:42:33,507 | INFO | root | Logging system initialized
+2026-04-07 18:42:33,507 | INFO | __main__ | Report generation started
+2026-04-07 18:42:33,507 | INFO | src.reporter | Generating weather report
+2026-04-07 18:42:33,509 | INFO | src.reporter | Report generated and saved to E:\VS CODE\The Developer's Arena Internship 6 months\Month 3\reports\weather_report.txt
+2026-04-07 18:42:33,510 | INFO | __main__ | Report generation completed successfully
