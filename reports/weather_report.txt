@@ -1,1 +1,47 @@
+WEATHER DATA PIPELINE REPORT
+========================================
+Generated at: 2026-04-07T13:12:33.509201+00:00
 
+Weather Summary (City-wise)
+----------------------------------------
+City: Bangalore
+  Records: 2
+  Avg Temp: 32.63 C
+  Max Temp: 32.63 C
+  Min Temp: 32.63 C
+  Avg Humidity: 29.00%
+
+City: Chennai
+  Records: 2
+  Avg Temp: 30.56 C
+  Max Temp: 30.56 C
+  Min Temp: 30.56 C
+  Avg Humidity: 76.00%
+
+City: Delhi
+  Records: 2
+  Avg Temp: 22.05 C
+  Max Temp: 22.05 C
+  Min Temp: 22.05 C
+  Avg Humidity: 73.00%
+
+City: Kolkata
+  Records: 2
+  Avg Temp: 27.97 C
+  Max Temp: 27.97 C
+  Min Temp: 27.97 C
+  Avg Humidity: 61.00%
+
+City: Mumbai
+  Records: 2
+  Avg Temp: 28.99 C
+  Max Temp: 28.99 C
+  Min Temp: 28.99 C
+  Avg Humidity: 65.00%
+
+Alert Summary
+----------------------------------------
+High Temperature: 4
+
+End of Report
+========================================
